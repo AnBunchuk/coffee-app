@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa:400,700&subset=cyrillic-ext');
+
+  * {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    }
+
+  body{
+    font-family: 'Comfortaa', cursive;
+    font-size: 16px;
+    color: #410202
+    }
+
+  ul{
+    list-style-type: none;
+  }
+
+  .wrapper {
+    width: 960px;
+    margin: 10px auto;
+    border: 1px dashed #999;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+  }
+.coffee{
+    background-color: #280b01;
+    color: #fff;
+}
+.water{
+    background-color: #9df7fd;
+    color: rgb(4, 1, 57);
+}
+.milkfoam {
+  background-color:rgb(244, 233, 187);
+  color: rgb(4, 1, 57);
+}
+.vershki{
+  background-color:rgb(247, 238, 204);
+  color: rgb(4, 1, 57);
+}
+.sirop{
+  background-color:#62443a;
+  color: #fff;
+}
+.milk{
+  background-color:rgb(243, 235, 203);
+  color: rgb(4, 1, 57);
+}
+
+
+.btn{
+  margin:20px;
+  cursor:pointer;
+}
+
+.modal{
+  color:#280b01;
+ margin-top:20px;
+  height: 200px;
+  overflow:auto;
+  font-size: 20px;
+}
